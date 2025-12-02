@@ -8,6 +8,7 @@ Starter repository for new 3dvr.tech experiments and prototypes.
 - `js/app.js` — Placeholder for your custom JavaScript.
 - `LICENSE` — MIT License so you can share and remix freely.
 - `.gitignore` — Basic Node/Web dev ignores.
+- `docs/legitimacy-and-marketing-plan.md` — Playbook for legitimizing the company and launching a marketing engine.
 
 ## Getting started
 
