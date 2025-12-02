@@ -28,6 +28,10 @@ Starter repository for new 3dvr.tech experiments and prototypes.
 
 4. Start customizing the layout, styles, and behavior for your next 3dvr project.
 
+## Termux users (Android)
+
+If you're unzipping the starter on Android via Termux, see [`docs/termux-setup.md`](docs/termux-setup.md) for storage permissions, unzipping commands, serving locally, and uploading to GitHub via the web UI or CLI.
+
 ---
 
 Feel free to rename this repo, add frameworks (React/Vue/Laravel/etc.), or keep it lightweight and vanilla.
