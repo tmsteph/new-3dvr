@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>new-3dvr — Starter</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-full bg-slate-950 text-slate-100">
+  <div class="min-h-screen flex flex-col">
+    <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur">
+      <div class="mx-auto max-w-5xl px-4 py-4 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <div class="h-8 w-8 rounded-xl border border-slate-600 flex items-center justify-center text-xs font-bold tracking-tight">
+            3dvr
+          </div>
+          <div class="leading-tight">
+            <div class="font-semibold text-sm uppercase tracking-[0.2em] text-slate-400">new-3dvr</div>
+            <div class="text-xs text-slate-500">Starter repo</div>
+          </div>
+        </div>
+        <a href="https://3dvr.tech" target="_blank" class="text-xs px-3 py-1 rounded-full border border-slate-600 hover:border-sky-400 hover:text-sky-300 transition">
+          3dvr.tech
+        </a>
+      </div>
+    </header>
+
+    <main class="flex-1">
+      <section class="mx-auto max-w-5xl px-4 py-12">
+        <div class="grid gap-10 md:grid-cols-[minmax(0,3fr)_minmax(0,2fr)] items-start">
+          <div>
+            <p class="text-xs font-mono tracking-[0.25em] uppercase text-slate-500 mb-3">
+              Repo · Bootstrap
+            </p>
+            <h1 class="text-4xl md:text-5xl font-semibold tracking-tight mb-4">
+              new-3dvr
+            </h1>
+            <p class="text-slate-300 text-base mb-6 max-w-xl">
+              A minimal, batteries-included starter for your next 3dvr.tech experiment.
+              Clean HTML, Tailwind via CDN, and a small JS hook so you can move fast
+              without getting locked into a framework too early.
+            </p>
+            <div class="flex flex-wrap gap-3 mb-8 text-sm">
+              <span class="px-3 py-1 rounded-full bg-slate-900 border border-slate-700">Vanilla HTML/JS</span>
+              <span class="px-3 py-1 rounded-full bg-slate-900 border border-slate-700">Tailwind (CDN)</span>
+              <span class="px-3 py-1 rounded-full bg-slate-900 border border-slate-700">MIT Licensed</span>
+            </div>
+            <ol class="space-y-3 text-sm text-slate-200">
+              <li><span class="font-semibold text-sky-300">1.</span> Unzip and run <code class="font-mono text-xs bg-slate-900 px-1.5 py-0.5 rounded border border-slate-700">git init</code> in the folder.</li>
+              <li><span class="font-semibold text-sky-300">2.</span> Open <code class="font-mono text-xs bg-slate-900 px-1.5 py-0.5 rounded border border-slate-700">index.html</code> in your browser or use a local dev server.</li>
+              <li><span class="font-semibold text-sky-300">3.</span> Start editing the markup and <code class="font-mono text-xs bg-slate-900 px-1.5 py-0.5 rounded border border-slate-700">js/app.js</code> to build your idea.</li>
+            </ol>
+          </div>
+
+          <div class="rounded-3xl border border-slate-800 bg-slate-900/60 p-4 md:p-5 shadow-lg shadow-slate-900/40">
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-2 text-xs text-slate-400">
+                <span class="h-2 w-2 rounded-full bg-emerald-400"></span>
+                <span>project.json</span>
+              </div>
+              <span class="text-[10px] px-2 py-0.5 rounded-full border border-slate-700 text-slate-400">example</span>
+            </div>
+            <pre class="text-[11px] leading-relaxed bg-slate-950/60 rounded-2xl p-3 overflow-x-auto border border-slate-800 font-mono text-slate-200">
+{
+  "name": "new-3dvr",
+  "description": "Starter repo for 3dvr.tech experiments",
+  "stack": ["html", "tailwind", "vanilla-js"],
+  "status": "idea → prototype → product"
+}
+            </pre>
+            <p class="mt-3 text-xs text-slate-400">
+              Use this repo as a seed for micro-sites, docs, dashboards, or new 3dvr apps.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-800 bg-slate-900/80">
+      <div class="mx-auto max-w-5xl px-4 py-4 text-xs text-slate-500 flex flex-wrap items-center justify-between gap-3">
+        <span>new-3dvr · starter template</span>
+        <span>Made for rapid experiments. Ship, learn, iterate.</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
