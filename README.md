@@ -8,6 +8,7 @@ Starter repository for new 3dvr.tech experiments and prototypes.
 - `js/app.js` — Placeholder for your custom JavaScript.
 - `LICENSE` — MIT License so you can share and remix freely.
 - `.gitignore` — Basic Node/Web dev ignores.
+- `docs/legitimacy-and-marketing-plan.md` — Playbook for legitimizing the company and launching a marketing engine.
 
 ## Getting started
 
@@ -27,6 +28,10 @@ Starter repository for new 3dvr.tech experiments and prototypes.
    ```
 
 4. Start customizing the layout, styles, and behavior for your next 3dvr project.
+
+## Termux users (Android)
+
+If you're unzipping the starter on Android via Termux, see [`docs/termux-setup.md`](docs/termux-setup.md) for storage permissions, unzipping commands, serving locally, and uploading to GitHub via the web UI or CLI.
 
 ---
 
